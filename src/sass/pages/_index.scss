@@ -1,0 +1,53 @@
+.index__container {
+    margin-top: 100px;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.input{
+    &__logo{
+        width: 589px;
+        height: 388px;
+        margin-bottom: 20px;
+    }
+    &__container {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column; 
+    }
+    &__win{
+    width: 325px;
+    height: 50px;
+    border-radius: 10px;
+    border-color:$frameСolor;
+    }
+    &__btn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+}
+
+
+.social_btn {
+    margin-top: 10px;
+    width: 285px;
+    height: 40px;
+    border: 2px solid $frameСolor ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    // &__img{
+       
+        
+    // }
+}

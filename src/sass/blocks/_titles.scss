@@ -1,0 +1,27 @@
+.title {
+    color: $textColor;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: right;
+    &_fs14 {
+        font-size: 14px;
+        font-weight:400;
+        
+    }
+    &_fs18regular {
+        font-size: 18px;
+        font-weight:4000;
+    }
+    &_fs20bold {
+        font-size: 18px;
+        font-weight:800;
+    }
+    &_fs32exbold{
+        font-size: 18px;
+        font-weight:800;
+    }
+}
+
+.titleIndexColor {
+    color:rgba(155, 81, 224, 1);
+}

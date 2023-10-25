@@ -1,0 +1,30 @@
+.search {
+  &__form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    background:none;
+  }
+  &__input {
+      position: absolute;
+      width: 759px;
+      height: 65px;
+      top: 50px;
+      border: 1px solid $frameСolor;
+      padding: 10px;
+      border-radius: 15px;    
+    }
+    &__icon {
+      display: display;
+      // align-items: ;
+      margin-left: 10px;
+    }
+    &__icon img {
+      width: 20px;
+      height: 20px;
+      margin-left: 5px;
+    }
+}
+  
+  
