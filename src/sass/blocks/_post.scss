@@ -1,0 +1,32 @@
+.post{
+    display: block;
+    width: 372px;
+    height: 293px;
+    border: 1px solid $frameСolor;
+    padding: 7px;
+    border-radius: 10px;
+    
+    &_title{
+        text-transform: uppercase;
+    }S
+    &_coordinats{
+        text-transform: uppercase;
+    }
+    &_image{
+        width: 348px;
+        height: 152px;
+        border: 3px solid $frameСolor;
+        border-radius: 10px;
+    }
+    &_note{
+        width: 345px;
+    }
+    &__img{
+        width: 348px;
+        height: 152px;
+        border: 2px solid $frameСolor;
+        border-radius:10px;
+    }
+    
+
+}

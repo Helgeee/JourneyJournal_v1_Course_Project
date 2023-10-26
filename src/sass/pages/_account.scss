@@ -1,0 +1,14 @@
+.accaunt{
+    margin: 0 auto;
+    &__profile{
+        margin: o auto;
+    }
+    &__buttons{
+        margin-top: 110px;
+        grid-template-columns: 325px 325px;
+        justify-content: center;
+        grid-gap: 65px;
+        display: grid;
+        background: none;
+    }
+}

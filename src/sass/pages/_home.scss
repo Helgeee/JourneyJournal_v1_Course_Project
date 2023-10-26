@@ -1,17 +1,26 @@
 
 .ribbon {
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     &__buttons{
-        margin-top: 80px;
-        display: flex;
-        position: relative;
+        margin-top: 110px;
+        grid-template-columns: 325px 325px;
         justify-content: center;
+        grid-gap: 65px;
+        display: grid;
         background: none;
     }
-   
-
+    
+}
+.post__conteiner{
+    margin-top: 56px;
+    grid-template-columns: 365px 365px;
+    grid-gap: 30px 17px;
+    display: grid;
+    grid-auto-rows: minmax(217 , 294);
+    justify-content: center;
+    &__item{
+        padding: 10px;
+    }
+    
 }
 

@@ -3,14 +3,22 @@
     font-size: 30px;
     font-weight: 700;
     text-align: right;
+    &_fs12{
+        font-size: 12px;
+        font-weight:400;
+    }
     &_fs14 {
         font-size: 14px;
         font-weight:400;
         
     }
+    &_fs16 {
+        font-size: 18px;
+        font-weight: 500;
+    }
     &_fs18regular {
         font-size: 18px;
-        font-weight:4000;
+        font-weight:400;
     }
     &_fs20bold {
         font-size: 18px;
