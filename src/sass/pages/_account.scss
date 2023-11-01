@@ -1,8 +1,28 @@
 .accaunt{
-    margin: 0 auto;
-    &__profile{
-        margin: o auto;
+    
+
+    &__container{
+        width: 520px;
+        height: 320px;
+        
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        
+        flex-direction: row;
+        
+        justify-content: space-between;
+        flex-direction: column; 
     }
+    &__avatar{
+        display: block;
+        margin-top: 60px;
+        height: 56px;
+        width: 56px;
+        
+        border-radius: 50px;
+    }
+    
     &__buttons{
         margin-top: 110px;
         grid-template-columns: 325px 325px;

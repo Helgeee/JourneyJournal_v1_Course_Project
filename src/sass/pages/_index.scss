@@ -9,13 +9,17 @@
     flex-direction: row;
 }
 
-.input{
+.index{
     &__logo{
+         background: none;
+        margin-top:42px ;
+        // position: absolute;
+        left: 95px;
         width: 589px;
         height: 388px;
-        margin-bottom: 20px;
+        // margin-bottom: 10px;
     }
-    &__container {
+    &__title {
     float: right;
     display: flex;
     justify-content: space-between;
@@ -34,7 +38,6 @@
     flex-direction: column;
 }
 }
-
 
 .social_btn {
     margin-top: 10px;

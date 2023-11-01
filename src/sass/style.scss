@@ -1,4 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
+@import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;600;700;800;900&display=swap');
 
 
@@ -32,11 +33,11 @@
 
 
 @import 'blocks/menu';
-@import 'blocks/search';
 @import 'blocks/buttons';
 @import 'blocks/titles';
-@import 'blocks/logo';
 @import 'blocks/post';
+@import 'blocks/header';
+
 
 
 
@@ -44,3 +45,4 @@
 @import 'pages/index';
 @import 'pages/home';
 @import 'pages/account';
+@import 'pages/setting';

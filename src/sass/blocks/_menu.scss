@@ -1,10 +1,10 @@
 .sidebar_menu {
     position: fixed;
     background: none;
-    top: 200px;
+    top: 180px;
     left: 100px;
     width: 109px;
-    height: 512px;
+    height: 500px;
     display: flex;
     justify-content: center;
     
@@ -16,7 +16,7 @@
     padding: 0;
   }
   .sidebar_menu li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .sidebar_menu  a {
@@ -27,13 +27,13 @@
     text-decoration: none;
     padding: 5px;
     text-transform:uppercase;
-    font-size: 12px;
+    font-size: 10px;
     color: $textColor;
   }
   
   .sidebar_menu img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
   }
 
   // .sidebar_menu ul li:hover {
