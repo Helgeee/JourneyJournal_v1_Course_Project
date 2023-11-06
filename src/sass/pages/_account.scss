@@ -1,6 +1,5 @@
 .accaunt{
     
-
     &__container{
         width: 520px;
         height: 320px;
@@ -22,13 +21,39 @@
         
         border-radius: 50px;
     }
+    &__statistVisit{
+        grid-template-columns: 200px 200px;
+        flex-direction: row;
+        justify-content: center;
+        display: grid;
+    }
+    &__statist  {
+        grid-template-columns: 200px 200px 200px;
+        flex-direction: row;
+        justify-content: center;
+        display: grid;
+    }
     
     &__buttons{
-        margin-top: 110px;
+        margin-top: 10px;
         grid-template-columns: 200px 200px;
         justify-content: center;
         grid-gap: 40px;
         display: grid;
         background: none;
     }
+}
+
+
+.postAccount{
+    
+    &__container{
+        margin-top: 56px;
+        grid-template-columns: 256px 256px;
+        grid-gap: 30px 17px;
+        display: grid;
+        grid-auto-rows: minmax(217 , 294);
+        justify-content: center;
+    }
+
 }

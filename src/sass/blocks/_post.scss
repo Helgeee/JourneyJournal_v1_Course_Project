@@ -1,32 +1,59 @@
-.post{
+.postHome{
     display: block;
     width: 372px;
     height: 293px;
     border: 1px solid $frameСolor;
     padding: 7px;
     border-radius: 10px;
-    
-    &_title{
-        text-transform: uppercase;
-    }S
-    &_coordinats{
+    &__title{
         text-transform: uppercase;
     }
-    &_image{
+    &__coordinats{
+        text-transform: uppercase;
+        // color: $textСolor;
+    }
+    &__image{
         width: 348px;
         height: 152px;
-        border: 3px solid $frameСolor;
-        border-radius: 10px;
     }
-    &_note{
+    &__note{
         width: 345px;
     }
     &__img{
         width: 348px;
         height: 152px;
-        border: 2px solid $frameСolor;
-        border-radius:10px;
+        border: 3px solid $frameСolor;
+        border-radius: 10px;
     }
+    
     
 
 }
+
+.postAccount {
+    display: block;
+    height: 222px;
+    width: 256px;
+    border: 1px solid $frameСolor;
+    padding: 7px;
+    border-radius: 10px;
+    &__title{
+        text-transform: uppercase;
+    }
+    &__coordinats{
+        text-transform: uppercase;
+        // color: $textСolor;
+    }
+    &__image{
+        width: 240px;
+        height: 152px;
+    }
+    &__img{
+        width: 240px;
+        height: 152px;
+        border: 3px solid $frameСolor;
+        border-radius: 10px;
+    }
+
+}
+

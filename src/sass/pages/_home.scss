@@ -1,5 +1,5 @@
 .ribbon {
-    margin: 0 auto;
+    
     &__buttons{
         margin-top: 30px;
         grid-template-columns: 325px 325px;
@@ -10,13 +10,17 @@
     }
     
 }
-.post__conteiner{
-    margin-top: 56px;
-    grid-template-columns: 365px 365px;
-    grid-gap: 30px 17px;
-    display: grid;
-    grid-auto-rows: minmax(217 , 294);
-    justify-content: center;
+.postHome{
+    
+    &__container{
+        margin: 0 auto;
+        margin-top: 56px;
+        grid-template-columns: 365px 365px;
+        grid-gap: 30px 17px;
+        display: grid;
+        grid-auto-rows: minmax(217 , 294);
+        justify-content: center;
+    }
     &__item{
         padding: 10px;
     }
