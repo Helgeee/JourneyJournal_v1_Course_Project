@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JorneyJornay</title>
     <meta name="title" content="JorneyJornay">
-    <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+   
 
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
       <header class="header">
-
             <div class="header__logo">
               <img  src="/src/img/logo/JJ01.svg" alt="">
             </div>
@@ -27,6 +26,8 @@
               </form>
       </header>
 
+
+
       <div class="sidebar_menu">
         <ul>
           <li><a href="home.html"><img class="menu_icon" src="../src/icons/Menu/homeMenu.svg" alt="Icon 1">home</a></li>
@@ -34,48 +35,79 @@
           <li><a href="explore.html"><img class="menu_icon" src="../src/icons/Menu/discoveryMenu.svg" alt="Icon 3">путешествия</a></li>
           <li><a href="trips.html"><img class="menu_icon" src="../src/icons/Menu/ticketMenu.svg" alt="Icon 4">поездки</a></li>
           <li><a href="#"><img class="menu_icon" src="../src/icons/Menu/messMenu.svg" alt="Icon 5">мессенджер</a></li>
-          <li><a href="#"><img class="menu_icon" src="../src/icons/Menu/plusMenu.svg" alt="Icon 6">создать</a></li>
+          <li><a href="#"><img  class="menu_icon" src="../src/icons/Menu/plusMenu.svg" alt="Icon 6">создать</a></li>
           <li><a href="setting.html"><img  class="menu_icon" src="../src/icons/Menu/settingMenu.svg" alt="Icon 7">настройки</a></li>
           <li><a href="index.html"><img src="../src/icons/Menu/loginMenu.svg" alt="Icon 7">выход</a></li>
         </ul>
       </div>
+      
+      <div id="myModal1" class="modal">
+        <div class="modal__contents">
+          <span class="close" onclick="closeModal('myModal1')">&times;</span>
+          
+          <img class="modal__img" src="#" alt=""> 
+
+          <input class="modal__noteName" type="text" placeholder="Введите название">
+          <input class="modal__noteCoordinates">
+
+          <textarea class="modal__note" type="text" placeholder="Введите текст..."></textarea>
+
+          <button id="createNote" class="button button__main  button__center">Создать заметку</button>
+        </div>
+      </div>
+
+
+      <div id="myModal2" class="modalMap">
+        <div class="modalMap__contents">
+          <span class="close" onclick="closeModal('myModal2')">&times;</span>
+          <span class="close" onclick="closeModal('myModal2')">&times;</span>
+
+
+
+          <form class="searchMap__form">
+            <div class="searchMap__wrapper">
+                <img class="searchMap__icon" src="/src/icons/Search.svg" alt="Search">
+                <input class="searchMap__input" type="text"  placeholder=" Know where you wanna go?">
+                <img class="searchMap__avatar" src="/src/img/profile/Ellipse 25.svg" alt="Search">    
+            </div>        
+          </form>
+
+           <!-- <button id="createNote" class="button button__main  button__center">Создать заметку</button> --> 
+
+        </div>  
+      </div>
+            
+        
+      
 
       <section class="ribbon">
         
           <div class="ribbon__buttons">
               
-              <button class="button button__main ">Создать заметку</button> 
-              <button class="button button__main ">моя карта</button>
+              <button onclick="openModal('myModal1')" class="button button__main"> Создать заметку </button> 
+              <button onclick="openModal('myModal2')" class="button button__main"> моя карта </button>
             
           </div>
 
-
-          
-
-          <section class="ribbon__wrapper">
-
-
-
-
-              <div class="postHome__container">
-            
-                        <div class="postHome">
-                          <h3 class="postHome__title title__fs16"> Название заметки </h3>
-
-                          <p class="post__coordinats title__fs12 "> <img src="/src/icons/locationPost.svg" alt=""> 8967564676 </p>
-
-                          <div class="postHome__image">
-                            <img class="postHome__img" src="/src/img/works/city-4807268_640.jpg" alt=""> 
-                          </div>
-                          <div class="post__note">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec orci volutpat,....   </div>
-                        </div>
-
-              </div> 
-        </section> 
-    
-
-
       </section>
+
+      <section class="ribbon__wrapper">
+
+        <div class="postHome__container">
+      
+                  <div class="postHome">
+                    <h3 class="postHome__title title__fs16"> Название заметки </h3>
+
+                    <p class="post__coordinats title__fs12 "> <img src="/src/icons/locationPost.svg" alt=""> 8967564676 </p>
+
+                    <div class="postHome__image">
+                      <img class="postHome__img" src="/src/img/works/city-4807268_640.jpg" alt=""> 
+                    </div>
+                    <div class="post__note">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec orci volutpat,....   </div>
+                  </div>
+
+        </div> 
+  </section> 
       
     
 

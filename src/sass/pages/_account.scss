@@ -22,16 +22,23 @@
         border-radius: 50px;
     }
     &__statistVisit{
-        grid-template-columns: 200px 200px;
+        max-width: 300px;
+        grid-template-columns: 110px 110px;
         flex-direction: row;
+        column-gap: 50px;
         justify-content: center;
         display: grid;
+
+        color: $primaryColor;
     }
     &__statist  {
-        grid-template-columns: 200px 200px 200px;
+        max-width: 412px;
+        grid-template-columns: 130px 150px 130px;
+        column-gap: 10px;
         flex-direction: row;
         justify-content: center;
         display: grid;
+        color: $textColor;
     }
     
     &__buttons{
@@ -56,4 +63,13 @@
         justify-content: center;
     }
 
+}
+
+.line{
+    width: 414px;
+    height: 1px;
+    background: #EFEFF0;
+
+    justify-content: center;
+    display: flex;
 }

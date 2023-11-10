@@ -1,10 +1,14 @@
-function footer() {
-    const
-        main = document.getElementsByTagName('main')[0],
-        footer = document.getElementsByTagName('footer')[0]
 
-    main.style.paddingBottom = footer.clientHeight + 'px'
+
+
+
+
+  // Функция для открытия модального окна
+  function openModal(id) {
+    document.getElementById(id).style.display = "block";
 }
 
-window.addEventListener('load', footer);
-window.addEventListener('resize', footer);
+// Функция для закрытия модального окна
+function closeModal(id) {
+    document.getElementById(id).style.display = "none";
+}

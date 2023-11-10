@@ -37,10 +37,16 @@
 @import 'blocks/titles';
 @import 'blocks/post';
 @import 'blocks/header';
+@import 'blocks/search';
+
+
+
+@import 'modal/modal';
 
 
 @import 'pages/index';
 @import 'pages/home';
 @import 'pages/account';
+@import 'pages/explore';
 @import 'pages/setting';
 @import 'pages/trips';
