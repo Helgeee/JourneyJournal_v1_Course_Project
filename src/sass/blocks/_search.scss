@@ -1,31 +1,29 @@
 .searchMap{
     &__form {
         padding: 50px;
-        position: relative; top: 50%; left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        // position: relative; top: 50%; left: 50%;
+        // -webkit-transform: translate(-50%, -50%);
+        // -ms-transform: translate(-50%, -50%);
+        // transform: translate(-50%, -50%);
   
-        width: 571px;
-        height: 54px;
+        width: 400px;
+        height: 38px;
         top: 50px;
         border: 1px solid $frameСolor;
         padding: 10px;
         border-radius: 15px; 
         background: transparent;
-        
       }
       &__wrapper {
         display: grid;
-        grid-template-columns: 27px 569px 56px;
-        grid-template-rows: 50px;
-        grid-gap: 20px;
+        grid-template-columns:20px  310px 50px 140px;
+        grid-template-rows: 15px;
+        grid-gap: 10px;
         align-items: center;
       }
       &__input {
-        width: 569px;
-        height: 64px; 
-        
+        width: 400px;
+        height: 38px;
         outline: 0;
         outline-offset: 0;
         background: transparent;  
@@ -34,10 +32,12 @@
       &__icon {
         display: block;
         align-items: center;
+        width: 16px;
       }
       &__avatar {
         display: block;
         align-items: center;
+        width: 30px;
       }
        
 }

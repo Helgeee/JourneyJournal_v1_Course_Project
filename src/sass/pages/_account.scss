@@ -40,7 +40,6 @@
         display: grid;
         color: $textColor;
     }
-    
     &__buttons{
         margin-top: 10px;
         grid-template-columns: 200px 200px;
@@ -49,6 +48,14 @@
         display: grid;
         background: none;
     }
+    &__title{
+        margin-top: 10px;
+        text-align: center;
+        color: $primaryColor;
+        text-transform: uppercase;
+    }
+    
+    
 }
 
 
@@ -63,12 +70,19 @@
         justify-content: center;
     }
 
+    
 }
 
 .line{
-    width: 414px;
+    margin-top: 50px;
+    width: 475px;
     height: 1px;
     background: #EFEFF0;
+
+    position: relative; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
     justify-content: center;
     display: flex;

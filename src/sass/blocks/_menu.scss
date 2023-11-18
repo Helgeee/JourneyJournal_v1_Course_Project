@@ -1,4 +1,4 @@
-.sidebar_menu {
+.sidebar__menu {
     position: fixed;
     background: none;
     top: 180px;
@@ -11,16 +11,16 @@
     
   }
   
-  .sidebar_menu ul {
+  .sidebar__menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  .sidebar_menu li {
+  .sidebar__menu li {
     margin-bottom: 5px;
   }
   
-  .sidebar_menu  a {
+  .sidebar__menu  a {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -37,22 +37,6 @@
     height: 25px;
   }
 
-  // .sidebar_menu ul li:hover {
-  //   background-color: #bc53b7;
-  // }
-  
-  // .sidebar_menu ul li:hover a {
-  //   color: $primaryColor;
-  // }
-  
-  // .menu_icon path {
-  //   fill: #f52929;
-  //   transition: fill 0.3s ease;
-  // }
-  
-  // .sidebar_menu ul li:hover .menu_icon path {
-  //   fill: $primaryColor;
-  // }
 
 
  
