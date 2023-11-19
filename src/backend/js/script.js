@@ -1,8 +1,5 @@
 
 
-
-
-
   // Функция для открытия модального окна
   function openModal(id) {
     document.getElementById(id).style.display = "block";
