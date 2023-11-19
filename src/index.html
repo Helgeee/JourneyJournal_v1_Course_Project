@@ -12,6 +12,48 @@
 <body>  
    
 
+    <div id="modal1" class="modal">
+        <div class="md__content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3>Создать профиль</h3>
+            <p class="title">Логин</p>
+
+            <input class="index__win" type="text" name="username" placeholder=" Логин">
+
+            <p class="title" >Почта</p>
+
+            <input class="index__win" type="text" name="email" placeholder=" email ">
+
+            <p class="title">Пароль</p>
+
+            <input class="index__win" type="password" name="password" placeholder=" Пароль">
+
+            <p class="title">Повторите пароль</p>
+
+            <input class="index__win" type="password" name="password" placeholder=" Пароль">
+                
+            <div>
+                <input class="checkbox" type="checkbox"> <p class="title">Согласен(а) с политикой </p>
+            </div>
+            
+            <button class="button" onclick="openModal2()">Создать аккаунт</button>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal__content">
+            <span class="close" onclick="closeModal2()">&times;</span>
+            <h3 class="title">Создать профиль</h3>
+            <p class="title" >выберите тип профиля, который вы хотели бы cоздать</p>
+
+            <button class="social__btn title title__fs16" > Экстраверт </button>
+            <button class="social__btn title title__fs16" > Амбиветр </button>
+            <button class="social__btn title title__fs16" > Интроверт </button>
+
+            <button class="button" onclick="openModal2()">создать аккаунт</button>
+        </div>
+    </div>
+    
     <section class="entrance">
             <div class="container">
                 <div class="index__container">
@@ -32,7 +74,7 @@
                         <div class="right title__fs18regular">
                             Email
                         </div>
-                        <input class="index__win" type="text" name="username" placeholder=" Логин">
+                        <input class="index__win" type="text" name="email" placeholder=" email">
 
                         <div class="title__fs18regular">
                             Password
@@ -42,7 +84,7 @@
 
                         <div class="index__btn">
                             <a href="home.html" class="button button__main title__fs20bold">Вход</a>
-                            <a href="home.html" class="button button__main title__fs20bold">Регистрация</a>
+                            <button class="button button__main title__fs20bold" onclick="openModal()"> Регистрация </button>
                         </div>
 
                         <!-- <button class="button button_main"> </div></button> 
@@ -62,6 +104,9 @@
      </div>
     </section>
 
-    <script src="js/script.js"></script>
+
+    
+	
+        <script src="js/script.js"></script>
 </body>
 </html>
