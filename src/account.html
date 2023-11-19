@@ -33,9 +33,9 @@
         </ul>
       </div>
 
-      <!-- <div id="myModal1" class="modal">
+      <div id="modal1" class="modal">
         <div class="modal__contents">
-          <span class="close" onclick="closeModal('myModal1')">&times;</span>
+          <span class="close" onclick="closeModal('modal1')">&times;</span>
           
           <img class="modal__img" src="#" alt=""> 
 
@@ -46,12 +46,12 @@
 
           <button id="createNote" class="button button__main  button__center">Создать заметку</button>
         </div>
-      </div> -->
+      </div>
 
-      <div id="myModal2" class="modalMap">
+
+      <div id="modal2" class="modalMap">
         <div class="modalMap__contents">
-          <span class="close" onclick="closeModal('myModal2')">&times;</span>
-          <span class="close" onclick="closeModal('myModal2')">&times;</span>
+          <span class="close" onclick="closeModal('modal2')">&times;</span>
           <form class="searchMap__form">
             <div class="searchMap__wrapper">
                 <img class="searchMap__icon" src="/src/icons/Search.svg" alt="Search">
@@ -59,9 +59,10 @@
                 <img class="searchMap__avatar" src="/src/img/profile/Ellipse 25.svg" alt="Search">    
             </div>        
           </form>
-           <!-- <button id="createNote" class="button button__main  button__center">Создать заметку</button>  -->
+          <!-- <button id="createNote" class="button button__main  button__center">Создать заметку</button>  -->
         </div>  
-      </div> 
+      </div>
+            
 
 
       <section class="profile">
@@ -96,8 +97,8 @@
 
 
               <div class="accaunt__buttons">
-                <button  onclick="openModal('myModal1')" class="button button__mini ">Создать заметку</button> 
-                <button   onclick="openModal('myModal2')" class="button button__mini ">моя карта</button>
+                <button onclick="openModal1()" class="button button__mini ">Создать заметку</button> 
+                <button onclick="openModal2()" class="button button__mini ">моя карта</button>
               </div>
 
             </div>
@@ -185,6 +186,7 @@
     
 
     <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
 </body>
 </html>

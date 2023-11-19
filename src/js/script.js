@@ -1,5 +1,6 @@
 
 'use strict';
+
    // Получаем модальные окна по их id
    var modal1 = document.getElementById("modal1");
    var modal2 = document.getElementById("modal2");
