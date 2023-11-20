@@ -31,12 +31,12 @@
     border-radius: 10px;
     border-color:$frameСolor;
     }
-    &__btn{
+    &__btns{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
-    &__btn a{
+    &__btns a{
         text-decoration: none;
         color: #fff;
     }
@@ -46,7 +46,7 @@
         flex-direction: column;
         margin-left: 20px;        
     }
-    &__socialbtn a{
+    &__socialbtns a{
         text-decoration: none;
         color: $textColor;
     }
@@ -55,7 +55,7 @@
 }
 
 .social {
-    &__btn {
+    &__btns {
     margin-top: 10px;
     width: 285px;
     height: 40px;

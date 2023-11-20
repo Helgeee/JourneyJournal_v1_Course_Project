@@ -18,7 +18,7 @@
     }
     &__fs18regular {
         font-size: 18px;
-        font-weight:400;
+        font-weight:500;
     }
     &__fs18medium{
         font-size: 18px;
@@ -32,6 +32,10 @@
         font-size: 18px;
         font-weight:800;
     }
+    &__fs24{
+        font-size: 24px;
+        font-weight:600;
+    }
     &__fs32exbold{
         font-size: 18px;
         font-weight:800;
@@ -39,5 +43,5 @@
 }
 
 .titleIndexColor {
-    color:rgba(155, 81, 224, 1);
+    color: $primaryColor ;
 }
