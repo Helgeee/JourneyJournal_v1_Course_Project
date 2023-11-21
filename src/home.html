@@ -19,17 +19,16 @@
           <div class="modal modal--1" data-target="form-popup">
                     <div class="modal__contents">
                         <!-- <span class="close" onclick="closeModal('modal1')">&times;</span> -->
-                        <img class="modal__img" src="#" alt=""> 
+                        <img id="img_note" class="modal__img" src="#" alt=""> 
           
-                        <input class="modal__noteName" type="text" placeholder="Введите название">
-                        <input class="modal__noteCoordinates">
+                        <input id=" note_title"  class="modal__noteName" type="text" placeholder="Введите название">
+                        <input  id="coordinates" class="modal__noteCoordinates">
           
-                        <textarea class="modal__note" type="text" placeholder="Введите текст..."></textarea>
+                        <textarea id="note_text" class="modal__note" type="text" placeholder="Введите текст..."></textarea>
           
-                        <button id="createNote" class="button button__main  button__center">Создать заметку</button>
+                        <button  class="button button__main  button__center">Создать заметку</button>
                       </div>
           </div>
-
 
           <div class="modal modal--2" data-target="me-popup">
                     <div class="modalMap__contents">
@@ -115,6 +114,6 @@
       
     
  
-  <script src="js/modal.js"></script>
+  <script src="backend/modal.js"></script>
 </body>
 </html>

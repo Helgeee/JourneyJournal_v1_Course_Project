@@ -58,6 +58,13 @@ document.addEventListener('click', function(event) {
   }
 });
 
+
+
+
+
+
+
+
 // const btnOpenModal = document.getElementById('btnOpenModal');
 // const modal1 = document.getElementById('modal1');
 // const modal2 = document.getElementById('modal2');
