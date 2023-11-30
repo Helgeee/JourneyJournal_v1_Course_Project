@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 // const btns = document.querySelectorAll('.btn');
 // const modalOverlay = document.querySelector('.modal-overlay ');
